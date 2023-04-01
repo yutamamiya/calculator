@@ -1,0 +1,20 @@
+th { 
+  background-color: aquamarine;
+  border: 1px solid rgb(199, 199, 199);
+  padding: 10px;
+}
+td {
+  border: 1px solid #333;
+}
+
+table {
+  background-color: #726;
+}
+
+.answer {
+  border: 10px ridge #333;
+  background-color: #aaa;
+  display: flex;
+  align-items: stretch;
+}
+
