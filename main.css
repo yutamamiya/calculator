@@ -5,27 +5,22 @@ th {
 }
 td {
   border: 2px solid #bbb;
-  border: 2px solid 
-  
+  border: 2px solid ;
 }
-
 table {
   background-color: #fff;
 }
-
 .answer {
   border: 10px ridge #fff;
   background-color: #bbb;
   display: flex;
- 
 }
 .answer1{
-
   display: flex;
+  cursor: grab;
 }
-
 button{
   background-color: antiquewhite;
-  
+  cursor:pointer;
 }
 
