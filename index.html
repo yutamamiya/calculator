@@ -1,44 +1,117 @@
 <!DOCTYPE html>
+  
 <html>
-  <head>
+  <link rel="stylesheet" href="main.css
+  ">
+  <script src="main.js">
+  </script>
+
+<head>
+
+
     <title>計算機</title>
   </head>
-  <table border=3" >
+  <table border="3" >
     <thead>
       <tr>
       </tr>
     </thead>
     <tr>
-      <th>÷</th>
-      <th>×</th>
-      <th>+</th>
-      <th>-</th>
+      <!--division-->
+      <th>
+        <button>
+          ÷
+        </button>
+      </th>
+      <!--multiplication-->
+      <th>
+        <button>
+        ×
+        </button>
+      </th>
+      
+      <!-足し算->
+      <th>
+        <button>
+        +
+      </button>
+      </th>
+      <!--引き算-->
+      <th>
+      <button>
+        -
+      </button>
+      </th>
+    </tr>
+  
+    <tr>
+      <td>
+        <input type="button" value="1" onclick="OnButtoClick1()">
+      </td>
+      <td>
+        <input type="button" value="2" onclick="OnButtoClick2()">
+      </td>
+
+        <td>
+        <input type="button" value="3" onclick="OnButtoClick3()">
+      </td>
+      <td rowspan="4">
+        <button type="ansewer">
+          =
+        </button>   
+    </tr>
+      
     </tr>
 
     <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
+      <td>
+      <button type="4">
+        4
+      </button>
+      </td>
+      <td>
+      <button type="5">
+        5
+      </button>
+      </td>
+      <td>
+      <button type="6">
+        6
+      </button>
+      
+      </td>      
     </tr>
 
     <tr>
-      <td>4</td>
-      <td>5</td>
-      <td>6</td>      
-    </tr>
-
-    <tr>
-      <td>7</td>
-      <td>8</td>
-      <td>9</td>      
+      <td>
+      <button type="7">
+        7
+      </button>
+      </td>
+      <td>
+      <button type="8">
+        8
+      </button> 
+      </td>
+      <td>
+      <button type="9">
+        9
+      </button>
+      </td>      
     </tr>
 
     
     <tr>
-      <td></td>
-      <td>0</td>
-      <td>.</td>   
-      <td>=</td>   
+      <td colspan="2">
+        <button >
+          0
+        </button>
+      </td>
+      <td>
+        <button>
+          .
+        </button>
+      </td>   
     </tr>
   </table>
 
@@ -48,6 +121,9 @@
     
     <div class="answer">
       <p>answer</p>
+      <input type="number
+       name"answer1">
+
     </div>
 
     

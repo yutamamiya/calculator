@@ -1,20 +1,31 @@
 th { 
-  background-color: aquamarine;
+  background-color: rgb(127, 146, 255);
   border: 1px solid rgb(199, 199, 199);
   padding: 10px;
 }
 td {
-  border: 1px solid #333;
+  border: 2px solid #bbb;
+  border: 2px solid 
+  
 }
 
 table {
-  background-color: #726;
+  background-color: #fff;
 }
 
 .answer {
-  border: 10px ridge #333;
-  background-color: #aaa;
+  border: 10px ridge #fff;
+  background-color: #bbb;
   display: flex;
-  align-items: stretch;
+ 
+}
+.answer1{
+
+  display: flex;
+}
+
+button{
+  background-color: antiquewhite;
+  
 }
 
