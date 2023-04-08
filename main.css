@@ -1,22 +1,22 @@
-th { 
+th {
   background-color: rgb(127, 146, 255);
   border: 1px solid rgb(199, 199, 199);
-  padding: 10px;
+  padding: 0px;
 }
 td {
-  border: 2px solid #bbb;
-  border: 2px solid ;
+
+  border: auto solid #bbb;
 }
 table {
   background-color: #fff;
 }
-.answer {
+.input_box {
   border: 10px ridge #fff;
   background-color: #bbb;
   display: flex;
 }
 .answer1{
-  display: flex;
+
   cursor: grab;
 }
 button{
