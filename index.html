@@ -1,14 +1,9 @@
 <!DOCTYPE html>
-  
 <html>
-  <link rel="stylesheet" href="main.css
-  ">
+  <link rel="stylesheet" href="main.css">
   <script src="main.js">
   </script>
-
 <head>
-
-
     <title>計算機</title>
   </head>
   <table border="3" >
@@ -19,27 +14,17 @@
     <tr>
       <!--division-->
       <th>
-        <button>
-          ÷
-        </button>
+        <input type="button" value="÷" onclick="OnButtonClickDivison()">
       </th>
       <!--multiplication-->
       <th>
         <input type="button" value="+" onclick="OnButtonClickaddition()">
-        </button>
       </th>
-      
-      <!-足し算->
       <th>
-        <button>
-        +
-      </button>
+        <input type="button" value="×" onclick="OnButtonCllickmulti()">
       </th>
-      <!--引き算-->
       <th>
-      <button>
-        -
-      </button>
+        <input type="button" value="-" onclick="OnButtoClicksubtraction()">
       </th>
     </tr>
   
@@ -51,73 +36,60 @@
         <input type="button" value="2" onclick="OnButtoClick2()">
       </td>
 
-        <td>
+       <td>
         <input type="button" value="3" onclick="OnButtoClick3()">
       </td>
       <td rowspan="3">
-        <button type="ansewer" onclick="OnbuttonClickequal()">
-          =
-        </button>   
+        <input type="button" value="=" onclick="OnbuttonClickequal()">
       </td>
     </tr>  
     <tr>
       <td>
-      <button type="4">
-        4
+      <input type="button" value="4" onclick="OnButtoClick4()">
       </button>
       </td>
       <td>
-      <button type="5">
-        5
+      <input type="button" value="5" onclick="OnButtoClick5()">
       </button>
       </td>
       <td>
-      <button type="6">
-        6
+      <input type="button" value="6" onclick="OnButtoClick6()">
       </button>
-      
       </td>      
     </tr>
 
     <tr>
       <td>
-      <button type="7">
-        7
+      <input type="button" value="7" onclick="OnButtoClick7()">
       </button>
       </td>
       <td>
-      <button type="8">
-        8
+      <input type="button" value="8" onclick="OnButtoClick8()">
       </button> 
       </td>
       <td>
-      <button type="9">
-        9
+      <input type="button" value="9" onclick="OnButtoClick9()">
       </button>
       </td>      
     </tr>
 
     <tr>
       <td colspan="2">
-        <button >
-          0
-        </button>
+        <input type="button" value="0" onclick="OnButtoClick0()">
       </td>
       <td>
-        <button>
-          .
-        </button>
+        <input type="button" value="." onclick="OnclickDecimal()">
       </td>   
       <td>
-        <button> 
-         C
-        </button>
-
+        <input type="button" value="C" onclick="OnClickClear()"> 
       </td>
     </tr>
   </table>
 
   <body>    
+    <h3 id="view_calc" >
+      
+    </h3>
     <div class="input_box">
       <p>answer</p>
       <input type="number" id="ansewer_text" value="0" disabled>
