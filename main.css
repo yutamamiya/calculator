@@ -1,7 +1,6 @@
-html{
+input {
   width: 100%;
   height: 100%;
-  
 }
 
 th {
@@ -9,26 +8,33 @@ th {
   border: 1px solid rgb(199, 199, 199);
   padding: 0px;
 }
+
 td {
   border: auto solid #bbb;
-  height:100%;
+  height: 100%;
 }
+
 table {
   background-color: #fff;
   width: 100%;
-  height: 100%;
+  height: 30rem;
 }
+
 .input_box {
   border: 10px ridge #fff;
   background-color: #bbb;
-  display: flex;
 }
-.answer1{
 
+.answer1 {
   cursor: grab;
 }
-button{
+
+button {
   background-color: antiquewhite;
-  cursor:pointer;
+  cursor: pointer;
 }
 
+.no-click-bottan {
+  background-color: #fff;
+  border: none;
+}
