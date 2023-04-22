@@ -11,7 +11,6 @@ th {
 
 td {
   border: auto solid #bbb;
-  height: 100%;
 }
 
 table {
@@ -20,7 +19,16 @@ table {
   height: 30rem;
 }
 
-.input_box {
+button {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+
+/* #table-margin{
+  margin: 3rem;
+} */
+
+.input-box {
   border: 10px ridge #fff;
   background-color: #bbb;
 }
@@ -29,12 +37,12 @@ table {
   cursor: grab;
 }
 
-button {
-  background-color: antiquewhite;
-  cursor: pointer;
-}
 
 .no-click-bottan {
   background-color: #fff;
   border: none;
+}
+
+.white-bottan{
+  background-color: #fff;
 }

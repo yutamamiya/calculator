@@ -7,86 +7,88 @@
 <head>
   <title>計算機</title>
 </head>
-<table border="3">
-  <thead>
+<div id="table-margin">
+  <table border="3">
+    <thead>
+      <tr>
+      </tr>
+    </thead>
     <tr>
+      <!--division-->
+      <th>
+        <input type="button" value="÷" onclick="OnButtonClickDivison()">
+      </th>
+      <!--multiplication-->
+      <th>
+        <input type="button" value="+" onclick="OnButtonClickaddition()">
+      </th>
+      <th>
+        <input type="button" value="×" onclick="OnButtonCllickmulti()">
+      </th>
+      <th>
+        <input type="button" value="-" onclick="OnButtoClicksubtraction()">
+      </th>
     </tr>
-  </thead>
-  <tr>
-    <!--division-->
-    <th>
-      <input type="button" value="÷" onclick="OnButtonClickDivison()">
-    </th>
-    <!--multiplication-->
-    <th>
-      <input type="button" value="+" onclick="OnButtonClickaddition()">
-    </th>
-    <th>
-      <input type="button" value="×" onclick="OnButtonCllickmulti()">
-    </th>
-    <th>
-      <input type="button" value="-" onclick="OnButtoClicksubtraction()">
-    </th>
-  </tr>
+    <tr>
+      <td>
+        <input type="button" value="1" onclick="OnButtoClick1()" class="white-bottan">
+      </td>
+      <td>
+        <input type="button" value="2" onclick="OnButtoClick2()" class="white-bottan">
+      </td>
+      <td>
+        <input type="button" value="3" onclick="OnButtoClick3()" class="white-bottan">
+      </td>
+      <td>
+        <input type="button" value="=" onclick="OnbuttonClickequal()">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value="4" onclick="OnButtoClick4()" class="white-bottan">
+      </td>
+      <td>
+        <input type="button" value="5" onclick="OnButtoClick5()" class="white-bottan">
+      </td>
+      <td>
+        <input type="button" value="6" onclick="OnButtoClick6()" class="white-bottan">
+      </td>
+      <td>
+        <input type="button" value=" " class="no-click-bottan">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value="7" onclick="OnButtoClick7()" class="white-bottan">
+      </td>
+      <td>
+        <input type="button" value="8" onclick="OnButtoClick8()" class="white-bottan">
+      </td>
+      <td>
+        <input type="button" value="9" onclick="OnButtoClick9()" class="white-bottan">
+      </td>
+      <td>
+        <input type="button" value=" " class="no-click-bottan">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <input type="button" value="0" onclick="OnButtoClick0()" class="white-bottan">
+      </td>
+      <td>
+        <input type="button" value="." onclick="OnclickDecimal()">
+      </td>
+      <td>
+        <input type="button" value="C" onclick="OnClickClear()">
+      </td>
+    </tr>
+  </table>
+</div>
 
-  <tr>
-    <td>
-      <input type="button" value="1" onclick="OnButtoClick1()">
-    </td>
-    <td>
-      <input type="button" value="2" onclick="OnButtoClick2()">
-    </td>
-    <td>
-      <input type="button" value="3" onclick="OnButtoClick3()">
-    </td>
-    <td>
-      <input type="button" value="=" onclick="OnbuttonClickequal()">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <input type="button" value="4" onclick="OnButtoClick4()">
-    </td>
-    <td>
-      <input type="button" value="5" onclick="OnButtoClick5()">
-    </td>
-    <td>
-      <input type="button" value="6" onclick="OnButtoClick6()">
-    </td>
-    <td>
-      <input type="button" value=" " class="no-click-bottan">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <input type="button" value="7" onclick="OnButtoClick7()">
-    </td>
-    <td>
-      <input type="button" value="8" onclick="OnButtoClick8()">
-    </td>
-    <td>
-      <input type="button" value="9" onclick="OnButtoClick9()">
-    </td>
-    <td>
-      <input type="button" value=" " class="no-click-bottan">
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <input type="button" value="0" onclick="OnButtoClick0()">
-    </td>
-    <td>
-      <input type="button" value="." onclick="OnclickDecimal()">
-    </td>
-    <td>
-      <input type="button" value="C" onclick="OnClickClear()">
-    </td>
-  </tr>
-</table>
 <body>
   <h3 id="view_calc">
   </h3>
-  <div class="input_box">
+  <div class="input-box">
     <p>answer</p>
     <input type="number" id="ansewer_text" value="0" disabled ">
     </div> 
