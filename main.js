@@ -30,7 +30,6 @@ function SelectInputNumver(input) {
     // alert("First="+ first_numver + " second "+second_numver +"arithmetic" + arithmetic)
 }
 
-
 function OnButtoClick1() {
     //  const numver1 = document.getElementById("answer_box");
     //  answer_box.value += "1";
